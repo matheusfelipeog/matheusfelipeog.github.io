@@ -123,6 +123,8 @@ p, label {
 }
 
 .hi {
+    display: block;
+    font-size: 2.4rem;
     margin-bottom: -2.4rem;
 }
 
@@ -131,6 +133,7 @@ p, label {
 }
 
 .iam-job {
+    font-size: 3.2rem;
     color: var(--color-green);
     margin-top: -2.4rem;
 }
@@ -143,6 +146,7 @@ p, label {
 }
 
 .title-section {
+    font-size: 3.2rem;
     margin-bottom: 4rem;
 }
 
