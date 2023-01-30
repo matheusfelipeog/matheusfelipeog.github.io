@@ -17,6 +17,14 @@
 <body class="bg-dark">
     <header class="container topbar d-flex space-between bg-dark">
         <img src="assets/images/mf-logo.svg" alt="Logo MF (Matheus Felipe) na cor branca.">
+
+        <input type="checkbox" name="open-close-menu" id="open-close-menu" hidden>
+        <label for="open-close-menu" class="menu-icon">
+            <span class="bar-1"></span>
+            <span class="bar-2"></span>
+            <span class="bar-3"></span>
+        </label>
+
         <nav class="menu">
             <ul class="menu-items d-flex">
                 <li class="menu-item"><a href="#home">Home</a></li>
@@ -55,5 +63,12 @@
             </a>  
         </div>
     </section>
+    <script>
+        document.querySelectorAll(".menu-item").forEach(elem => {
+            elem.addEventListener("click", () => {
+                document.querySelector('#open-close-menu').checked = false;
+            })
+        });
+    </script>
 </body>
 </html>
