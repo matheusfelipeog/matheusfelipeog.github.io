@@ -99,13 +99,16 @@ p, label {
     gap: var(--gap);
 }
 
-.topbar {
-    align-items: center;
+.topbar-fixed {
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1;
+}
+
+.topbar {
+    align-items: center;
 }
 
 .menu-icon {
