@@ -177,6 +177,10 @@ p, label {
 }
 
 @media (max-width: 768px) {
+    h1 {
+        font-size: 6.4rem;
+    }
+
     .topbar {
         flex-wrap: wrap;
     }
