@@ -55,6 +55,7 @@ h6 {
 
 p, label {
     font-size: 1.6rem;
+    color: var(--color-light-gray);
 }
 
 .bg-dark {
@@ -75,6 +76,8 @@ p, label {
 
 .full-vh {
     min-height: 100vh;
+    padding-top: 4rem;
+    padding-bottom: 8.5rem;
 }
 
 .d-flex {
@@ -151,7 +154,24 @@ p, label {
 
 .title-section {
     font-size: 3.2rem;
-    margin-bottom: 4rem;
+    margin-bottom: 2.4rem;
+}
+
+.avatar {
+    width: 14.4rem;
+    border-radius: 50%;
+    border: 0.1rem solid var(--color-green);
+    padding: 0.8rem;
+    margin-bottom: 2.4rem;
+}
+
+.about-desc {
+    max-width: 84rem;
+    text-align: center;
+}
+
+.about-desc > p {
+    margin-bottom: var(--gap);
 }
 
 .micro-cards-links {
