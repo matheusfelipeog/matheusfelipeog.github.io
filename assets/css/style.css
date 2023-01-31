@@ -229,6 +229,11 @@ p, label {
     background-color: var(--color-dark);
     padding: 0.8rem 0.8rem 1.6rem 0.8rem;
     border-radius: 1.6rem;
+    transition: all 300ms ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.08);
 }
 
 .card-thumbnail {
