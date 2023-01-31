@@ -1,56 +1,241 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-
-    <title>Matheus Felipe | Desenvolvedor</title>
-    
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Matheus Felipe, desenvolvedor Full-Stack e mantenedor de projetos Open-Source.">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Matheus Felipe | Desenvolvedor Full-Stack">
+    <meta property="og:description" content="Desenvolvedor Full-Stack, criador e mantenedor de projetos no GitHub.">
+    <meta property="og:image" content="https://matheusfelipeog.github.io/assets/images/og-thumbnail.jpg">
+    <meta property="og:width" content="1200">
+    <meta property="og:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:url" content="https://matheusfelipeog.github.io">
+    <meta property="og:site_name" content="matheusfelipeog.github.io">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:site" content="@matheusfelipeog.github.io">
+    <meta property="twitter:creator" content="@matheusfelipeog">
 
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Matheus Felipe | Desenvolvedor Full-Stack</title>
+    
+    <link rel="shortcut icon" href="assets/images/favicon-light.svg" type="image/x-icon" media="(prefers-color-scheme: dark)">
+    <link rel="shortcut icon" href="assets/images/favicon-dark.svg" type="image/x-icon" media="(prefers-color-scheme: light)">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://code.iconify.design/3/3.0.1/iconify.min.js"></script>
 </head>
-
-<body>
-    <div class="container">
-
-       
-        <img class="logo logo_js" src="./assets/img/logo_js.png" />
-        <img class="logo logo_py" src="./assets/img/logo_python.png" />
-        <img class="logo logo_html" src="./assets/img/logo_html.png" />
-        <img class="logo logo_css" src="./assets/img/logo_css.png" />
-        <img class="logo logo_php" src="./assets/img/logo_php.png" />
-        <img class="logo logo_github" src="./assets/img/logo_github.png" />
-        <img class="logo logo_mysql" src="./assets/img/logo_mysql.png" />
-        <img class="logo logo_opensource" src="./assets/img/logo_opensource.png" />
-       
-
-        <h2 class="hi">Hi,</h2>
-        <h2 class="whois">I'm Matheus</h2>
-
-        <ul class="midias">
-            <li>
-                <a href="https://github.com/matheusfelipeog" title="Visite meu Github" target="_blank">
-                    <img src="./assets/img/github-brands.png" />
-                </a>
-            </li>
-
-            <li>
-                <a href="http://linkedin.com/in/matheusfelipeog" title="Visite meu Linkedin" target="_blank">
-                    <img src="./assets/img/linkedin-brands.png" alt="" />
-                </a>
-            </li>
-
-            <li>
-                <a href="https://t.me/matheusfelipeog" title="Converse comigo via Telegram" target="_blank">
-                    <img src="./assets/img/telegram-brands.png" alt="" />
-                </a>
-            </li>
-        </ul>
-
+<body class="bg-dark">
+    <div class="topbar-fixed bg-dark">
+        <header class="container topbar d-flex space-between bg-dark">
+            <img src="assets/images/mf-logo.svg" alt="Logo MF (Matheus Felipe) na cor branca.">
+    
+            <input type="checkbox" name="open-close-menu" id="open-close-menu" hidden>
+            <label for="open-close-menu" class="menu-icon">
+                <span class="bar-1"></span>
+                <span class="bar-2"></span>
+                <span class="bar-3"></span>
+            </label>
+    
+            <nav class="menu">
+                <ul class="menu-items d-flex">
+                    <li class="menu-item"><a href="#home">home</a></li>
+                    <li class="menu-item"><a href="#about">about</a></li>
+                    <li class="menu-item"><a href="#tech-skills">skills</a></li>
+                    <li class="menu-item"><a href="#projects">projects</a></li>
+                    <li class="menu-item"><a href="#links">links</a></li>
+                </ul>
+            </nav>
+        </header>
     </div>
 
-    <script type="text/javascript" src="./assets/js/uteis.js"></script>
-</body>
+    <section id="home" class="container full-vh d-flex-col-center">
+        <div class="presentation">
+            <span class="hi">Oi</span>
+            <h1 class="iam">Sou o Matheus</h1>
+            <h2 class="iam-job">Desenvolvedor Full-Stack</h2>
+        </div>
+        <span class="iconify arrow-icon" data-icon="material-symbols:arrow-forward-ios-rounded" data-width="40" data-height="40" data-rotate="90deg"></span>
+    </section>
 
+    <div class="bg-gray">
+        <section id="about" class="container full-vh d-flex-col-center">
+            <img class="avatar" src="https://avatars.githubusercontent.com/u/50463866?s=144" alt="Minha foto de perfil">
+            <h2 class="title-section">About</h2>
+            <div class="about-desc">
+                <p>Desenvolvedor Full-Stack atualmente focado no ecossistema Python e Técnico em Desenvolvimento de Sistemas pela ETEC. Possuo vivência no desenvolvimento de soluções front e back usando metodologias ágeis, boas práticas de segurança e elaboração, organização e criação de documentação.</p>
+                <p>Atualmente realizando projetos freelancers de web scraping e automação, além de criar e manter diversos projetos open source, sendo eles: sistemas, APIs/pacotes, automações, documentações e afins.</p>
+            </div>
+            <span class="iconify arrow-icon" data-icon="material-symbols:arrow-forward-ios-rounded" data-width="40" data-height="40" data-rotate="90deg"></span>
+        </section>
+    </div>
+
+    <section id="tech-skills" class="container full-vh d-flex-col-center">
+        <h2 class="title-section">Skills</h2>
+        <div class="micro-cards skill-cards d-flex">
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="vscode-icons:file-type-python" data-width="32" data-height="32"></span>
+                <span>Python</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="cib:flask" data-width="32" data-height="32"></span>
+                <span>Flask</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="file-icons:jinja" data-width="32" data-height="32"></span>
+                <span>Jinja</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="vscode-icons:file-type-html" data-width="32" data-height="32"></span>
+                <span>HTML</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="vscode-icons:file-type-css" data-width="32" data-height="32"></span>
+                <span>CSS</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="logos:javascript" data-width="32" data-height="32"></span>
+                <span>JavaScript</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="logos:bootstrap" data-width="32" data-height="32"></span>
+                <span>Bootstrap</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="mdi:git" data-width="32" data-height="32"></span>
+                <span>Git</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="mdi:github" data-width="32" data-height="32"></span>
+                <span>GitHub</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="vscode-icons:file-type-mysql" data-width="32" data-height="32"></span>
+                <span>MySQL</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="vscode-icons:file-type-sqlite" data-width="32" data-height="32"></span>
+                <span>SQLite</span>
+            </div>
+            <div class="micro-card skill-card d-flex-col-center">
+                <span class="iconify" data-icon="flat-color-icons:linux" data-width="32" data-height="32"></span>
+                <span>Linux</span>
+            </div>
+        </div>
+        <span class="iconify arrow-icon" data-icon="material-symbols:arrow-forward-ios-rounded" data-width="40" data-height="40" data-rotate="90deg"></span>
+    </section>
+
+    <div class="bg-gray">
+        <section id="projects" class="container full-vh d-flex-col-center">
+            <h2 class="title-section">Projects</h2>
+            <div class="cards project-cards d-flex">
+                <div class="card project-card">
+                    <img class="card-thumbnail" src="https://repository-images.githubusercontent.com/297486344/248c2180-8757-11eb-9fce-1305e4329878" alt="Thumbnail do projeto.">
+                    <section class="card-body d-flex-col">
+                        <h3 class="card-title">fordev</h3>
+                        <p class="card-desc">Gere e valide dados randômicos com fordev 🎲</p>
+                        <div class="card-footer d-flex space-between">
+                            <span class="card-tag">open-source</span>
+                            <a class="project-link d-flex" href="https://github.com/matheusfelipeog/fordev" target="_blank">acessar <span class="iconify" data-icon="uil:external-link-alt" data-width="24" data-height="24"></span></a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card project-card">
+                    <img class="card-thumbnail" src="https://repository-images.githubusercontent.com/334330351/0af71a80-6ac5-11eb-8a4f-508bdb1242b6" alt="Thumbnail do projeto.">
+                    <section class="card-body d-flex-col">
+                        <h3 class="card-title">worldometer</h3>
+                        <p class="card-desc">Obtenha métricas mundiais do site worldometers.info 🌎</p>
+                        <div class="card-footer d-flex space-between">
+                            <span class="card-tag">open-source</span>
+                            <a class="project-link d-flex" href="https://github.com/matheusfelipeog/worldometer" target="_blank">acessar <span class="iconify" data-icon="uil:external-link-alt" data-width="24" data-height="24"></span></a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card project-card">
+                    <img class="card-thumbnail" src="https://repository-images.githubusercontent.com/427192637/d0f686d0-7362-46e3-8189-8e60679661b6" alt="Thumbnail do projeto.">
+                    <section class="card-body d-flex-col">
+                        <h3 class="card-title">filometro</h3>
+                        <p class="card-desc">Obtenha os dados dos postos de vacinação da covid-19 em São Paulo</p>
+                        <div class="card-footer d-flex space-between">
+                            <span class="card-tag">open-source</span>
+                            <a class="project-link d-flex" href="https://github.com/matheusfelipeog/filometro" target="_blank">acessar <span class="iconify" data-icon="uil:external-link-alt" data-width="24" data-height="24"></span></a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card project-card">
+                    <img class="card-thumbnail" src="https://repository-images.githubusercontent.com/583134475/d8fb2e1f-6dd1-44ec-aa72-4ae28f6396f3" alt="Thumbnail do projeto.">
+                    <section class="card-body d-flex-col">
+                        <h3 class="card-title">sistema de controle</h3>
+                        <p class="card-desc">sistema de controle pdv, comanda, estoque e clientes</p>
+                        <div class="card-footer d-flex space-between">
+                            <span class="card-tag">open-source</span>
+                            <a class="project-link d-flex" href="https://github.com/matheusfelipeog/tcc-etec" target="_blank">acessar <span class="iconify" data-icon="uil:external-link-alt" data-width="24" data-height="24"></span></a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card project-card">
+                    <img class="card-thumbnail" src="https://repository-images.githubusercontent.com/290904550/5afebc00-f6a2-11ea-8ba2-75b95ad0ab0f" alt="Thumbnail do projeto.">
+                    <section class="card-body d-flex-col">
+                        <h3 class="card-title">froxy</h3>
+                        <p class="card-desc">Hide your IP with free proxies using Froxy 🔄</p>
+                        <div class="card-footer d-flex space-between">
+                            <span class="card-tag">open-source</span>
+                            <a class="project-link d-flex" href="https://github.com/matheusfelipeog/froxy" target="_blank">acessar <span class="iconify" data-icon="uil:external-link-alt" data-width="24" data-height="24"></span></a>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="card project-card">
+                    <img class="card-thumbnail" src="https://repository-images.githubusercontent.com/233262322/b0047080-e34d-11eb-8a3c-1c26fe92b96b" alt="Thumbnail do projeto.">
+                    <section class="card-body d-flex-col">
+                        <h3 class="card-title">calculadora tk</h3>
+                        <p class="card-desc">projeto para incentivar iniciantes em programação a contribuir em projetos open source.</p>
+                        <div class="card-footer d-flex space-between">
+                            <span class="card-tag">open-source</span>
+                            <a class="project-link d-flex" href="https://github.com/matheusfelipeog/calculadora-tk" target="_blank">acessar <span class="iconify" data-icon="uil:external-link-alt" data-width="24" data-height="24"></span></a>
+                        </div>
+                    </section>
+                </div>
+            </div>
+            <span class="iconify arrow-icon" data-icon="material-symbols:arrow-forward-ios-rounded" data-width="40" data-height="40" data-rotate="90deg"></span>
+        </section>
+    </div>
+
+    <section id="links" class="container full-vh d-flex-col-center">
+        <h2 class="title-section">Links</h2>
+        <div class="micro-cards link-cards d-flex gap">
+            <a class="micro-card link-card d-flex-col-center" href="https://github.com/matheusfelipeog" target="_blank">
+                <span class="iconify" data-icon="mdi:github" data-width="40" data-height="40"></span>
+                <span>GitHub</span>
+            </a>
+            <a class="micro-card link-card d-flex-col-center" href="https://www.linkedin.com/in/matheusfelipeog/" target="_blank">
+                <span class="iconify" data-icon="mdi:linkedin" data-width="40" data-height="40"></span>
+                <span>LinkedIn</span>
+            </a>
+            <a class="micro-card link-card d-flex-col-center" href="https://twitter.com/matheusfelipeog" target="_blank">
+                <span class="iconify" data-icon="mdi:twitter" data-width="40" data-height="40"></span>
+                <span>Twitter</span>
+            </a>
+            <a class="micro-card link-card d-flex-col-center" href="https://t.me/matheusfelipeog" target="_blank">
+                <span class="iconify" data-icon="mdi:telegram" data-width="40" data-height="40"></span>
+                <span>Telegram</span>
+            </a>  
+        </div>
+    </section>
+    <script>
+        document.querySelectorAll(".menu-item").forEach(elem => {
+            elem.addEventListener("click", () => {
+                document.querySelector('#open-close-menu').checked = false;
+            })
+        });
+    </script>
+</body>
 </html>
