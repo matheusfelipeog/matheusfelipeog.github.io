@@ -115,6 +115,10 @@ p, label {
     display: none;
 }
 
+.menu-icon, .menu {
+    margin-right: -2.4rem;
+}
+
 .menu-item {
     align-items: center;
 }
