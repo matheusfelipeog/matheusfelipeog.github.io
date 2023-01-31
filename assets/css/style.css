@@ -69,7 +69,7 @@ p, label {
 
 .container {
     position: relative;
-    max-width: 1024px;
+    max-width: 1440px;
     margin: 0 auto;
     padding: 0 2.4rem;
 }
@@ -82,6 +82,11 @@ p, label {
 
 .d-flex {
     display: flex;
+}
+
+.d-flex-col {
+    display: flex;
+    flex-direction: column;
 }
 
 .d-flex-col-center {
@@ -209,6 +214,61 @@ p, label {
 .micro-card.skill-card span:nth-child(2) {
     font-size: 1.2rem;
     margin-top: 0.8rem;
+}
+
+.cards {
+    max-width: 108rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2.4rem;
+}
+
+.card {
+    max-width: 32rem;
+    background-color: var(--color-dark);
+    padding: 0.8rem 0.8rem 1.6rem 0.8rem;
+    border-radius: 1.6rem;
+}
+
+.card-thumbnail {
+    width: 30.4rem;
+    height: 16rem;
+    object-fit: cover;
+    border-radius: 0.8rem;
+}
+
+.card-body {
+    padding: 0 0.8rem;
+}
+
+.card-title {
+    font-size: 2.4rem;
+}
+
+.card-desc {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.card-footer {
+    margin-top: 1.6rem;
+    align-items: center;
+}
+
+.card-tag {
+    font-size: 1.2rem;
+    color: var(--color-green);
+    border: 1px solid var(--color-green);
+    border-radius: 1.6rem;
+    padding: 0.4rem 0.8rem;
+}
+
+.project-link {
+    color: var(--color-white);
+    gap: 0.8rem;
 }
 
 .micro-card.link-card {
