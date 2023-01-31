@@ -249,6 +249,7 @@ p, label {
 
 .card-title {
     font-size: 2.4rem;
+    text-transform: capitalize;
 }
 
 .card-desc {
