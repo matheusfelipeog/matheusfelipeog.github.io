@@ -115,27 +115,29 @@ p, label {
 
 .topbar {
     align-items: center;
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.logo {
+    height: 4rem;
 }
 
 .menu-icon {
     display: none;
 }
 
-.menu-icon, .menu {
+.menu {
     margin-right: -2.4rem;
-}
-
-.menu-item {
-    align-items: center;
 }
 
 .menu-item a {
     display: block;
-    padding: 4.45rem 2.4rem;
-
+    padding: 0 2.4rem;
     color: var(--color-light-gray);
     font-size: 2.4rem;
     text-transform: lowercase;
+    line-height: 4.8rem;
 
     transition: all 300ms ease-in-out;
 }
@@ -299,7 +301,7 @@ p, label {
     .menu-icon {
         display: block;
         cursor: pointer;
-        padding: 4rem 2.4rem;
+        padding: 0.4rem;
     }
     
     .bar-1, .bar-2, .bar-3 {
@@ -307,13 +309,13 @@ p, label {
         background-color: var(--color-white);
         width: 4rem;
         height: 0.4rem;
-        margin: 0.8rem 0;
+        margin: 0.7rem 0;
         border-radius: 0.1rem;
         transition: all 300ms ease-in-out;
     }
 
     #open-close-menu:checked + .menu-icon .bar-1 {
-        transform: translate(0, 13px) rotate(-45deg);
+        transform: translate(0, 12px) rotate(-45deg);
     }
     
     #open-close-menu:checked + .menu-icon .bar-2 {
@@ -321,7 +323,7 @@ p, label {
     }
     
     #open-close-menu:checked + .menu-icon .bar-3 {
-        transform: translate(0, -11px) rotate(45deg);
+        transform: translate(0, -10px) rotate(45deg);
     }
 
     #open-close-menu:not(#open-close-menu:checked) ~ .menu {
@@ -335,7 +337,7 @@ p, label {
     .menu-items {
         flex-direction: column;
         align-items: center;
-        height: calc(100vh - 11rem);
+        height: calc(100vh - 8rem);
     }
 
     .menu-item a {
