@@ -7,6 +7,7 @@
     --color-white: #FFFFFE;
     --color-green: #2CB67D;
     --color-arrow-gray: #72757E;
+    --color-red: #ff3f34;
 
     --gap: 2.4rem
 }
@@ -287,6 +288,28 @@ p, label {
 .micro-card.link-card:hover {
     color: var(--color-dark);
     background-color: var(--color-white);
+}
+
+.footer {
+    height: 8rem;
+    border-top: 0.1rem solid var(--color-gray);
+    
+    font-size: 12px;
+}
+
+.footer .heart-icon {
+    color: var(--color-red);
+}
+
+.footer .link-to-source {
+    color: var(--color-white);
+    text-decoration: underline;
+
+    transition: all 200ms ease-in-out;
+}
+
+.footer .link-to-source:hover {
+    color: var(--color-green);
 }
 
 @media (max-width: 768px) {
